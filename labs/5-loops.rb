@@ -9,6 +9,28 @@
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+index = 0
+loop do
+    if index == 52
+        break
+    end
+rank\-index = 52 
+    rank = ranks[index]
+    suit = suits[index]
+    puts "#{rank} of Clubs"
+    puts "#{rank} of Diamonds"
+    puts "#{rank} of Hearts"
+    puts "#{rank} of Spades"
+
+    index = index + 1    
+end
+
+for rank in ranks
+    for suit in suits  
+        puts "#{rank} of #{suit}"
+    end
+    end
+
 # Sample output:
 # 2 of Clubs
 # 2 of Diamonds
